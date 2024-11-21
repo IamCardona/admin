@@ -11,13 +11,12 @@ export default function Home() {
         <div className="max-w-7xl flex flex-col justify-center p-1 md:px-10 mx-auto sm:pt-10 lg:flex-row lg:justify-between items-center">
           <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left leading-snug">
             <h1 className="text-5xl font-bold leadi sm:text-6xl leading-snug">
-              Kickstart your
-              <span className="text-rose-600 leading-snug"> Next.js 14 </span>
-              website in minutes
+              Iam Cardona
+              <span className="text-rose-600 leading-snug"> Jafet Guiovani </span>
+              Noris de Jesus
             </h1>
             <p className="mt-6 mb-8 text-lg sm:mb-12 leading-snug">
-              Inators UI is a collection of UI components and templates based on
-              Tailwind and Shadcn/ui, just copy and use
+              Vania la estrella
             </p>{" "}
             <div className="flex justify-center items-center md:justify-start w-full">
               <div className="mb-8 text-lg leading-snug">
