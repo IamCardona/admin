@@ -11,21 +11,21 @@ export default function Home() {
         <div className="max-w-7xl flex flex-col justify-center p-1 md:px-10 mx-auto sm:pt-10 lg:flex-row lg:justify-between items-center">
           <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left leading-snug">
             <h1 className="text-5xl font-bold leadi sm:text-6xl leading-snug">
-              Iam Cardona
-              <span className="text-rose-600 leading-snug"> Jafet Guiovani </span>
-              Noris de Jesus
+              Sitios web
+              <span className="text-rose-600 leading-snug"> para empresas </span>
+              de talla mundial
             </h1>
             <p className="mt-6 mb-8 text-lg sm:mb-12 leading-snug">
-              Vania la estrella
+              Cámbiate a la era digital, ¡No esperes más!
             </p>{" "}
             <div className="flex justify-center items-center md:justify-start w-full">
               <div className="mb-8 text-lg leading-snug">
-                <InstallCode installation={"npx shadcn-ui@latest init"} />
+                <InstallCode installation={"npx cotizar-ahora"} />
               </div>
             </div>
             <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
               <Link href="/inators">
-                <Button className="">Browse all Components</Button>
+                <Button className="">Porque innovar nunca ha sido tan fácil</Button>
               </Link>
             </div>
           </div>
@@ -59,7 +59,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col justify-center align-middle">
               <p className="text-3xl font-semibold leadi">150+</p>
-              <p className="capitalize">Components</p>
+              <p className="capitalize">Páginas vendidas</p>
             </div>
           </div>
           <div className="flex p-4 space-x-4 rounded-lg md:space-x-6  ">
@@ -78,7 +78,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col justify-center align-middle">
               <p className="text-3xl font-semibold leadi">30+</p>
-              <p className="capitalize">Categories</p>
+              <p className="capitalize">Colaboradores</p>
             </div>
           </div>
           <div className="flex p-4 space-x-4 rounded-lg md:space-x-6  ">
@@ -99,7 +99,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col justify-center align-middle">
               <p className="text-3xl font-semibold leadi">100%</p>
-              <p className="capitalize">Next.js 14 Compatible</p>
+              <p className="capitalize">Satisfacción</p>
             </div>
           </div>
           <div className="flex p-4 space-x-4 rounded-lg md:space-x-6  ">
@@ -137,24 +137,17 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col justify-center flex-1 px-6 lg:flex-2">
-              <span className="mb-2 text-xs tracking-widest uppercase text-rose-600">
+              {/* <span className="mb-2 text-xs tracking-widest uppercase text-rose-600">
                 {" "}
                 Make Next.js 14 your new playground{" "}
-              </span>
+              </span> */}
               <h2 className="text-3xl font-bold">
                 {" "}
-                Easy to use UI elements based on Tailwind CSS and Shadcn/ui{" "}
+                Creación de sitios web{" "}
               </h2>
               <p className="my-6 ">
                 {" "}
-                Inators UI is a toolkit for developers and designers to make
-                creating nextjs client side as well as server side interfaces
-                easier. Using Shadcn-ui components as base and added missing
-                necessary components, Inators UI have multiple components to
-                help you get started. Everything is modular and customizable to
-                fit your project. From cards to buttons to blogs, you can
-                quickly create a variety of layouts that is responsible for
-                next.js 14 and look great on any screen.{" "}
+                En Innova Fácil, nos dedicamos a la creación de sitios web para múltiples negocios. La creación de un sitio web para una empresa es crucial para entrar en un mercado más amplio y competitivo, algo esencial en la actualidad.{" "}
               </p>
             </div>
           </div>
@@ -169,27 +162,23 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col justify-center flex-1 px-6 lg:flex-2">
-              <span className="mb-2 text-xs tracking-widest uppercase text-rose-600">
+              {/* <span className="mb-2 text-xs tracking-widest uppercase text-rose-600">
                 {" "}
                 just copy paste skills required{" "}
-              </span>
+              </span> */}
               <h2 className="text-3xl font-bold">
-                Get the server side compatible components in one place
+                Disponible las 24 horas del día
               </h2>
               <p className="my-6 ">
                 {" "}
-                We know it&apos;s frustrating to find an UI kit with all the
-                supported components for next.js 14 and then find out that each
-                element does not work with server side, so here you will find
-                150+ building blocks for free. And there are many more on the
-                way!{" "}
+                El hecho de que tus clientes tengan acceso a un sitio web de tu negocio genera una visibilidad y alcance mayor, ya que estará disponible las 24 horas del día. ¿Alguna vez has sentido que un negocio no te genera la confianza suficiente? Un sitio web profesional mejorará el aspecto de tu negocio y la forma en que lo verán tus clientes y posibles nuevos clientes, generando así confianza.{" "}
               </p>
             </div>
           </div>
           <div className="flex flex-col max-w-xl mx-auto overflow-hidden rounded-md lg:max-w-full lg:mx-0 lg:flex-row min-h-96">
             <div className="flex items-center justify-center flex-1 px-4 my-8 lg:justify-start lg:flex-3 h-72 sm:h-80 lg:h-96 lg:mb-0">
               <Image
-                src="https://images.unsplash.com/photo-1675865254433-6ba341f0f00b?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://images.unsplash.com/photo-1543269664-76bc3997d9ea?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt=""
                 height={500}
                 width={500}
@@ -197,20 +186,17 @@ export default function Home() {
               />
             </div>
             <div className="flex flex-col justify-center flex-1 px-6 lg:flex-2">
-              <span className="mb-2 text-xs tracking-widest uppercase text-rose-600">
+              {/* <span className="mb-2 text-xs tracking-widest uppercase text-rose-600">
                 {" "}
                 just a couple of copy pasting code{" "}
-              </span>
+              </span> */}
               <h2 className="text-3xl font-bold">
-                Stop wasting time with ChatGPT for components
+                Estrategia de marketing efectiva
               </h2>
               <p className="my-6 ">
                 {" "}
-                What used to take hours, can now be done in a few clicks. Just
-                copy-paste the code from Inators UI into your project, add your
-                own content and hit publish. You just need a little brain and a
-                little developer skills to create something beautiful even
-                without chatGPT.{" "}
+                Además, un sitio web funciona como una estrategia de marketing efectiva, permitiéndote generar publicidad en línea, además de la creación de un método de comunicación con tus clientes, donde puedan mantener una interacción constante.
+                {" "}
               </p>
             </div>
           </div>
@@ -224,12 +210,8 @@ export default function Home() {
         <div className="container justify-center p-4 mx-auto space-y-8 md:p-10 lg:space-y-0 lg:space-x-12 lg:justify-around lg:flex lg:flex-row">
           <div className="flex flex-col space-y-2 text-center lg:text-left">
             <h2 className="text-3xl font-bold leading-none">
-              Follow on github for more project updates
+              “Porque innovar nunca ha sido tan fácil”.
             </h2>
-            <p className="px-4 text-lg lg:px-0">
-              {" "}
-              When I add something new, you will be the first to know{" "}
-            </p>
           </div>
           <div className="flex flex-row items-center self-center justify-center flex-shrink-0 lg:justify-end">
             <Link href="https://github.com/siddhartha-up80">
@@ -238,7 +220,7 @@ export default function Home() {
                 size="lg"
                 className="text-black dark:text-white"
               >
-                Github
+                ¡Contratar Ya!
               </Button>
             </Link>
           </div>
@@ -250,43 +232,34 @@ export default function Home() {
       <section className="mt-14 md:max-w-[70vw] mx-auto">
         <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
           <h2 className="text-2xl font-semibold sm:text-4xl">
-            Frequently Asked Questions
+            Preguntas frecuentes
           </h2>
           <p className="mt-4 mb-8 ">
-            Here are some of our FAQs. If you have any other questions
-            you&apos;d like answered please feel free to contact me.
+            Aquí mostramos algunas de las dudas más comunes.
           </p>
           <div className="space-y-4">
             <details className="w-full border rounded-lg">
               <summary className="px-4 py-6 focus:outline-none focus-visible:ri">
-                What is Inators UI?
+                ¿Qué es el desarrollo web?
               </summary>
               <p className="px-4 py-6 pt-0 ml-4 -mt-4 ">
-                Inators UI is a free, open-source collection of UI elements
-                based on Tailwind CSS, shadcn/ui and inspired from MambaUI that
-                make it easy for anyone to build a next.js 14 web-app in
-                minutes. Whether you&apos;re looking to create an e-commerce
-                website or a personal blog, Inators UI have all the elements you
-                need to get started right away..{" "}
+                El desarrollo web lo podemos describir como el proceso de crear sitios en la web. Este campo abarca distintas habilidades como lo pueden ser el Diseño web, que trata de realizar la creación de la apariencia visual que tendrá el sitio web, incluyendo objetos que el sitio tendrá como botones, menú y todos los elementos interactivos que lo conforman.{" "}
               </p>
             </details>
             <details className="w-full border rounded-lg">
               <summary className="px-4 py-6 focus:outline-none focus-visible:ri">
-                Will it support server side components in next.js 14?
+                ¿Qué es un sitio web dinámico?
               </summary>
               <p className="px-4 py-6 pt-0 ml-4 -mt-4 ">
-                Yes, it is 100% compatible with next.js 14 without making any
-                component client side.{" "}
+                Es aquel que genera contenido en tiempo real, y que es capaz de mantener múltiples interacciones con el usuario y la información que se encuentra almacenada en la base de datos. A diferencia de los sitios web estáticos, que solo muestran contenido a los visitantes. Los sitios web dinámicos nos permiten ofrecer una experiencia personalizada al usuario y que se actualiza constantemente.{" "}
               </p>
             </details>
             <details className="w-full border rounded-lg">
               <summary className="px-4 py-6 focus:outline-none focus-visible:ri">
-                Some of the components don&apos;t seem to work. Is something
-                broken?
+                ¿Cómo se controla la seguridad en un sitio web?
               </summary>
               <p className="px-4 py-6 pt-0 ml-4 -mt-4 ">
-                Just install necessary dependencies and try again, if it is not
-                working than contact us via email or contact form.{" "}
+                La seguridad en sitios web es el conjunto de medidas y prácticas diseñadas para proteger el sitio y la información almacenada en él, con el fin de proteger al sitio y los usuarios contra amenazas y ataque cibernéticos.{" "}
               </p>
             </details>
           </div>
