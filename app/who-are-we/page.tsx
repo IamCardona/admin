@@ -6,9 +6,26 @@ const Page = () => {
       <div className="flex justify-center mx-auto ">
 
         <div
-          className="mt-10 min-w-[80vw]"
+          className="mt-10 min-w-[80vw] text-center"
         >
+          <h1 className="scroll-m-20 text-4xl font-bold tracking-tight">
+            ¿Quiénes Somos?
+          </h1>
+
           <div className="space-y-2">
+            <div>
+              <p style={{ maxWidth: "85%", margin: "1rem auto" }}>
+                Innova Fácil es una empresa dedicada al desarrollo y crecimiento web, para buscar alternativas a soluciones de empresas, y buscar un impulso para ayudarlos en el mercado digital. Durante el siguiente documento hemos abordado diversos aspectos clave para el funcionamiento de nuestra empresa. Incluyendo algunos como lo es la formación académica y experiencia laboral de diferentes perfiles profesionales, estrategias de marketing, políticas de atención al cliente, balances generales, métodos y modos de venta. Con esté marco teórico buscamos contextualizar estos elementos que hemos usado, proporcionando una base sólida para su implementación y desarrollo.
+              </p>
+              <span className="">
+              </span>
+            </div>
+          </div>
+
+          {/* <p className="leading-7 mt-6 mb-4">
+            Innova Fácil es una empresa dedicada al desarrollo y crecimiento web, para buscar alternativas a soluciones de empresas, y buscar un impulso para ayudarlos en el mercado digital. Durante el siguiente documento hemos abordado diversos aspectos clave para el funcionamiento de nuestra empresa. Incluyendo algunos como lo es la formación académica y experiencia laboral de diferentes perfiles profesionales, estrategias de marketing, políticas de atención al cliente, balances generales, métodos y modos de venta. Con esté marco teórico buscamos contextualizar estos elementos que hemos usado, proporcionando una base sólida para su implementación y desarrollo.
+          </p> */}
+          {/* <div className="space-y-2">
             <h1 className="scroll-m-20 text-4xl font-bold tracking-tight">
               Installation
             </h1>
@@ -60,7 +77,7 @@ const Page = () => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
